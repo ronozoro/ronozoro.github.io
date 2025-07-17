@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "name": "Mostafa Abdo",
+    "title": "Software Engineer",
+    "location": "Los Angeles, California, United States",
+    "email": "mostafa.abdu007@gmail.com",
+    "phone": "949 406 0536",
+    "linkedin": "https://www.linkedin.com/in/ronozoro",
+    "github": "https://github.com/ronozoro",
+    "summary": "Experienced Software Engineer with 9+ years building scalable APIs, microservices, and cloud integrations. Expertise in Python, Java, data pipelines, backend development, and third-party API integration."
+  },
+  "experience": [
+    {
+      "company": "Freight Right",
+      "title": "Software Engineer",
+      "location": "Los Angeles, CA",
+      "period": "Jan 2025 - Present",
+      "highlights": [
+        "Built rates application for high-transaction volume freight quote workflow",
+        "Optimized Postgres schema performance - 60% faster queries",
+        "Developed Shopify integration for freight forwarder app serving 500+ ecommerce merchants across US",
+        "Created shipment manager with milestones using 15+ Spring Boot endpoints supporting 3 new shipment types"
+      ]
+    },
+    {
+      "company": "Y42",
+      "title": "Software Engineer",
+      "location": "Berlin, Germany",
+      "period": "Feb 2022 - Dec 2024",
+      "highlights": [
+        "Built Spaces API for multi-workspace support - 40% faster onboarding",
+        "Implemented access control, rate limiting, DBT pipeline integration, and LLM chatbot for support platform scale",
+        "Developed microservices with Git-like frontend improving data workflow consistency",
+        "Created proxy service for repo clone, commit, pull, push operations from UI",
+        "Integrated GitHub, GitLab, Bitbucket to manage repositories within app",
+        "Built pull request service for branch review before production deployment",
+        "Started weekly Backend Coffee sessions for backend tech sharing"
+      ]
+    },
+    {
+      "company": "Revenue AI",
+      "title": "Software Engineer / Data Engineer",
+      "location": "Budapest, Hungary",
+      "period": "Feb 2021 - Jan 2022",
+      "highlights": [
+        "Built backend with FastAPI and Starlight for stock trading integration with +15% data sync improvement",
+        "Optimized Databricks pipelines reducing process time by 20%",
+        "Created Dash apps for commodity data visualization and ML market forecasting",
+        "Automated Azure Data Factory ETL processes improving quality and reducing manual work by 30%"
+      ]
+    },
+    {
+      "company": "Expert",
+      "title": "Full Stack Developer",
+      "location": "Riyadh, Saudi Arabia",
+      "period": "Dec 2018 - Jan 2021",
+      "highlights": [
+        "Built Open Buffet SaaS using Flask, Postgres, React reducing onboarding time by 20%",
+        "Developed mobile backend with Flask and MongoDB including GPS integration improving ERP efficiency",
+        "Created DMS with archiving, OCR, and search for ERP serving law firms with case billing",
+        "Implemented Spring Boot solution for automated client onboarding reducing errors by 25%"
+      ]
+    },
+    {
+      "company": "IT Systems Corporation",
+      "title": "Backend Developer",
+      "location": "Cairo, Egypt",
+      "period": "Jun 2017 - Nov 2018",
+      "highlights": [
+        "Integrated Stripe and PayPal payment systems handling 100k+ transactions daily",
+        "Fixed legacy ERP bugs, managed migrations, and improved overall performance",
+        "Built POS banking integration reducing processing time by 20%"
+      ]
+    },
+    {
+      "company": "Hintegration",
+      "title": "Software Engineering Intern",
+      "location": "Cairo, Egypt",
+      "period": "Jun 2016 - May 2017",
+      "highlights": [
+        "Enhanced CRM forms using Python Django with 30% security improvement securing 100k+ records",
+        "Optimized CRM queries for 40% performance boost with SQL injection protection and email notifications",
+        "Built Java Spring MVC customer tracking system reducing report generation time by 25%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MS Computer Science",
+      "minor": "Data Analytics",
+      "school": "Westcliff University",
+      "location": "Irvine, CA",
+      "year": "2025"
+    },
+    {
+      "degree": "Postgraduate Machine Learning",
+      "school": "ITI",
+      "location": "Cairo, Egypt",
+      "year": "2021"
+    },
+    {
+      "degree": "BS Computer Science",
+      "school": "Fayoum University",
+      "location": "Cairo, Egypt",
+      "year": "2016"
+    }
+  ],
+  "skills": {
+    "Programming": ["Python", "Java", "Django", "Flask", "FastAPI", "Spring Boot", "GraphQL", "Pandas", "scikit-learn", "HTML", "CSS", "JSON", "JPA", "Hibernate"],
+    "Databases": ["MySQL", "PostgreSQL", "MongoDB", "DynamoDB", "Redis", "Snowflake", "BigQuery", "DBT"],
+    "Cloud & DevOps": ["AWS EC2", "RDS", "Lambda", "S3", "GCP", "GKE", "GCS", "Terraform", "Docker", "Kubernetes", "Kafka", "CI/CD", "GitHub Actions", "Travis"],
+    "Soft Skills": ["Collaboration", "Problem Solving", "Disciplined", "Organization", "Time Management", "Adaptability", "Interpersonal Communication", "Attention to Detail", "Agile", "Scrum"]
+  }
+}
