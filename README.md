@@ -36,7 +36,8 @@ I build the backend systems that freight networks, data platforms and *AI agents
 1. **MCP connector & agent plugins for international freight** (Freight Right, 2025–26). 16 OAuth 2.1 + PKCE tools and five workflow skills. Read-only by default, and nothing gets booked without the customer. The release is gated on 17 of 17 behavioural evals.
 2. **Zolvio** (founder, 2026). Store audits with 43 built-in checks, AI screenshot analysis, session replay, heatmaps and A/B tests. Built on Claude models.
 3. **Git-native data workflows** (Y42, 2022–24). A Git proxy with GitHub, GitLab and Bitbucket behind one integration layer, a PR service that gates production, and a multi-workspace Spaces API that cut onboarding time by 40%.
-4. **Carrier rate orchestration & Shopify-to-CargoWise automation** (Freight Right, 2025). Instant quotes across 8 carrier providers, fulfillment automated across 6 freight providers, and up to 80% fewer catalog pagination calls.
+4. **[Freight Rates API](https://www.freightright.com/technology/freight-rates-api) & carrier rate orchestration** (Freight Right, 2025). Python/Django orchestration across 8 carrier providers powering instant quotes and the Rates API for marketplaces and freight resellers.
+5. **[CartRight](https://apps.shopify.com/freight-right-easy-ship)** (Freight Right, 2025–26). A Shopify app that prices LTL and international freight at checkout and fulfils in one click via CargoWise across 6 freight providers. It cut catalog pagination calls by up to 80%. [How it works](https://www.freightright.com/solution/shopify-selling-internationally-large-high-value-freight)
 
 ## Experience
 

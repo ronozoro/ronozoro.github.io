@@ -234,6 +234,11 @@ strong { font-weight: 600; color: var(--ink); }
   border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px;
 }
 .card__link { margin-top: auto; font-size: 13px; color: var(--accent); align-self: flex-start; }
+.card--wide { grid-column: 1 / -1; }
+.card--wide .card__title { max-width: 36ch; }
+.card--wide .card__body { max-width: 88ch; }
+.card__links { margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px 28px; }
+.card__links .card__link { margin-top: 0; }
 .card__link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* ------------------------------------------------------------------
