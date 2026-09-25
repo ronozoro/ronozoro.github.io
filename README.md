@@ -1,155 +1,91 @@
-# Mostafa Abdo - Portfolio Website
+<div align="center">
 
-A clean, modern, and fast portfolio website built with pure HTML, CSS, and JavaScript. No frameworks, no build tools required - just open `index.html` in any browser.
+# Mostafa Abdo
 
-## Features
+**Senior backend engineer · Los Angeles**
 
-- **Responsive Design**: Mobile-first approach with clean layouts on all devices
-- **Dark Mode**: Toggle between light and dark themes with system preference detection
-- **Performance Optimized**: Under 50KB initial load, lazy loading, and optimized assets
-- **Accessible**: Semantic HTML, keyboard navigation, and screen reader friendly
-- **SEO Ready**: Meta tags, Open Graph, and structured data for search engines
+I build the backend systems that freight networks, data platforms and *AI agents* run on.
 
-## Quick Start
+[**ronozoro.github.io**](https://ronozoro.github.io) &nbsp;·&nbsp;
+[Résumé (PDF)](assets/Mostafa-Abdo-Resume.pdf) &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/ronozoro) &nbsp;·&nbsp;
+[mostafa.abdu007@gmail.com](mailto:mostafa.abdu007@gmail.com)
 
-1. **Local Development**: Simply open `index.html` in your browser
-2. **Deploy to GitHub Pages**: Push to your GitHub repo and enable Pages in settings
-3. **Deploy to Netlify**: Drag and drop the entire folder to Netlify
-4. **Deploy to Vercel**: Connect your GitHub repo to Vercel
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/preview-dark.png">
+  <img alt="Screenshot of ronozoro.github.io" src="assets/preview-light.png" width="860">
+</picture>
 
-## File Structure
-
-```
-ronozoro.github.io/
-├── index.html          # Main page with all sections
-├── styles.css          # All styles with design tokens
-├── script.js           # Interactive functionality
-├── data.json           # Resume data in structured format
-├── assets/
-│   └── images/         # Placeholder for project images
-└── README.md           # This file
-```
-
-## Customization
-
-### Updating Content
-
-Edit `data.json` to update:
-- Personal information and contact details
-- Work experience and achievements
-- Skills and technologies
-- Education history
-
-### Design Tokens
-
-CSS custom properties in `styles.css`:
-```css
-:root {
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 12px;
-  --spacing-lg: 16px;
-  --spacing-xl: 24px;
-  --spacing-2xl: 32px;
-  --spacing-3xl: 48px;
-  --spacing-4xl: 64px;
-  
-  --radius-base: 8px;
-  --radius-large: 16px;
-  
-  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.12);
-  
-  --color-primary: #0b5fff;
-  --color-text: #111;
-  --color-muted: #666;
-  --color-border: #e0e0e0;
-  --color-bg: #ffffff;
-  --color-bg-alt: #f8f9fa;
-}
-```
-
-### Adding Images
-
-1. Add images to `assets/images/`
-2. Update image paths in `data.json` or HTML
-3. Images are automatically optimized for responsive display
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- iOS Safari (latest)
-- Android Chrome (latest)
-
-## Performance Features
-
-- **Critical CSS**: Inline in `<head>` for faster rendering
-- **Deferred JavaScript**: Non-blocking script loading
-- **System Fonts**: No web font loading overhead
-- **Optimized Images**: Responsive with lazy loading support
-- **Minimal Dependencies**: Pure vanilla JavaScript
-
-## Accessibility Features
-
-- Semantic HTML structure
-- Skip to content link
-- Keyboard navigation support
-- Focus indicators
-- ARIA attributes where needed
-- Color contrast ratio 4.5:1+
-- Reduced motion respect
-
-## SEO Features
-
-- Meta description and keywords
-- Open Graph tags for social sharing
-- Twitter Card support
-- Structured data (JSON-LD)
-- Semantic heading hierarchy
-- Clean URL structure
-
-## Development
-
-No build process required! The site works directly with:
-
-1. **Live Server**: Use VS Code Live Server extension
-2. **Python**: `python -m http.server 8000`
-3. **Node.js**: `npx serve .`
-4. **File Protocol**: Open `index.html` directly
-
-## Deployment Options
-
-### GitHub Pages
-1. Push code to your GitHub repository
-2. Go to Settings → Pages
-3. Select source branch (usually `main`)
-4. Your site will be available at `https://username.github.io`
-
-### Netlify
-1. Drag and drop your project folder to [Netlify](https://netlify.com)
-2. Or connect your GitHub repository for continuous deployment
-
-### Vercel
-1. Connect your GitHub repository to [Vercel](https://vercel.com)
-2. Deploy with zero configuration
-
-### Cloudflare Pages
-1. Connect your GitHub repository to [Cloudflare Pages](https://pages.cloudflare.com)
-2. No build settings needed
-
-## License
-
-MIT License - feel free to use this template for your own portfolio.
-
-## Contact
-
-- **Email**: mostafa.abdu007@gmail.com
-- **LinkedIn**: [linkedin.com/in/ronozoro](https://linkedin.com/in/ronozoro)
-- **GitHub**: [github.com/ronozoro](https://github.com/ronozoro)
+</div>
 
 ---
 
-Built with ❤️ in Los Angeles
+## At a glance
+
+| | |
+|---|---|
+| **Now** | Software Engineer, [Freight Right](https://www.freightright.com), building the MCP connector and [agent plugins](https://github.com/freight-right/agent-plugins) that let AI assistants price, quote and track freight |
+| **Before** | Y42 (Berlin), where I built Git-native data workflows for a data-orchestration platform |
+| **Side** | Founder of [Zolvio](https://apps.shopify.com/zolvio), an AI conversion-optimization app on the Shopify App Store |
+| **Stack** | Python · Java · Django · FastAPI · Spring Boot · Postgres · AWS · GCP |
+
+**10+** years shipping backend systems · **16** MCP tools in production · **6** AI clients supported · **500+** Shopify merchants on the freight integration · **100K+** daily payment transactions handled
+
+## Selected work
+
+1. **MCP connector & agent plugins for international freight** (Freight Right, 2025–26). 16 OAuth 2.1 + PKCE tools and five workflow skills. Read-only by default, and nothing gets booked without the customer. The release is gated on 17 of 17 behavioural evals.
+2. **Zolvio** (founder, 2026). Store audits with 43 built-in checks, AI screenshot analysis, session replay, heatmaps and A/B tests. Built on Claude models.
+3. **Git-native data workflows** (Y42, 2022–24). A Git proxy with GitHub, GitLab and Bitbucket behind one integration layer, a PR service that gates production, and a multi-workspace Spaces API that cut onboarding time by 40%.
+4. **Carrier rate orchestration & Shopify-to-CargoWise automation** (Freight Right, 2025). Instant quotes across 8 carrier providers, fulfillment automated across 6 freight providers, and up to 80% fewer catalog pagination calls.
+
+## Experience
+
+| When | Where | Role |
+|---|---|---|
+| 2025 – now | Freight Right · Los Angeles, CA | Software Engineer |
+| 2022 – 2024 | Y42 · Berlin, Germany | Software Engineer |
+| 2021 – 2022 | Proactive Solutions · Riyadh, Saudi Arabia | Software / Data Engineer |
+| 2018 – 2021 | Expert · Riyadh, Saudi Arabia | Full Stack Developer |
+| 2017 – 2018 | IT Systems Corporation · Cairo, Egypt | Backend Developer |
+| 2016 – 2017 | Hintegration · Cairo, Egypt | Software Engineering Intern |
+
+**Education:** M.S. Computer Science, Westcliff University (2025) · Postgraduate ML, ITI Cairo (2021) · B.S. Computer Science, Fayoum University (2016)
+
+---
+
+## About this site
+
+The site is hand-built: one HTML page, one stylesheet and ~60 lines of JavaScript. There are no frameworks, no build step and no trackers.
+
+- **Editorial layout.** Instrument Serif for display type, Inter for body text, JetBrains Mono for labels.
+- **Light and dark themes.** It follows the OS by default. The toggle remembers your choice and is applied before first paint, so the page never flashes the wrong theme.
+- **Responsive** from 320px phones up to wide desktops.
+- **Accessible.** It has semantic landmarks, a skip link, visible focus rings, and it honours `prefers-reduced-motion`.
+- **SEO-ready.** It includes Open Graph and Twitter cards and `Person` JSON-LD.
+
+```
+.
+├── index.html        # the whole page: content lives here
+├── styles.css        # design tokens (light + dark) and layout
+├── script.js         # theme toggle, scroll reveals, active nav link
+├── data.json         # structured résumé data (not read by the page)
+└── assets/
+    ├── Mostafa-Abdo-Resume.pdf
+    └── preview-{light,dark}.png
+```
+
+### Run it locally
+
+```bash
+python3 -m http.server 8000   # then open http://localhost:8000
+```
+
+### Edit it
+
+- **Content:** edit `index.html` directly. Each section is commented (`Hero`, `01 Work`, `02 Experience`, ...).
+- **Colours and fonts:** change the tokens at the top of `styles.css`. Dark mode redefines the same tokens.
+- **Résumé:** replace `assets/Mostafa-Abdo-Resume.pdf`, keeping the same file name.
+
+GitHub Pages deploys every push to `main`.
+
+<div align="center"><sub>© Mostafa Abdo · Los Angeles</sub></div>

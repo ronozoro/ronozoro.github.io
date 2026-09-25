@@ -1,313 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mostafa Abdo - Experienced Software Engineer with 9+ years building scalable APIs, microservices, and cloud integrations">
-    <meta name="keywords" content="Software Engineer, Python, Java, Backend Developer, APIs, Microservices, Cloud">
-    <meta name="author" content="Mostafa Abdo">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ronozoro.github.io">
-    <meta property="og:title" content="Mostafa Abdo - Software Engineer">
-    <meta property="og:description" content="Experienced Software Engineer with 9+ years building scalable APIs, microservices, and cloud integrations">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://ronozoro.github.io">
-    <meta property="twitter:title" content="Mostafa Abdo - Software Engineer">
-    <meta property="twitter:description" content="Experienced Software Engineer with 9+ years building scalable APIs, microservices, and cloud integrations">
-    
-    <title>Mostafa Abdo - Software Engineer</title>
-    
-    <!-- Critical CSS inline -->
-    <style>
-        :root {
-            --spacing-xs: 4px;
-            --spacing-sm: 8px;
-            --spacing-md: 12px;
-            --spacing-lg: 16px;
-            --spacing-xl: 24px;
-            --spacing-2xl: 32px;
-            --spacing-3xl: 48px;
-            --spacing-4xl: 64px;
-            
-            --radius-base: 8px;
-            --radius-large: 16px;
-            
-            --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-            --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.12);
-            
-            --color-primary: #0b5fff;
-            --color-text: #111;
-            --color-muted: #666;
-            --color-border: #e0e0e0;
-            --color-bg: #ffffff;
-            --color-bg-alt: #f8f9fa;
-        }
-        
-        [data-theme="dark"] {
-            --color-text: #e0e0e0;
-            --color-muted: #999;
-            --color-border: #333;
-            --color-bg: #111;
-            --color-bg-alt: #1a1a1a;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: var(--color-text);
-            background-color: var(--color-bg);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        
-        .container {
-            max-width: 1024px;
-            margin: 0 auto;
-            padding: 0 var(--spacing-lg);
-        }
-        
-        .visually-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
-    </style>
-    
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Mostafa Abdo",
-      "jobTitle": "Software Engineer",
-      "email": "mostafa.abdu007@gmail.com",
-      "url": "https://ronozoro.github.io",
-      "sameAs": [
-        "https://www.linkedin.com/in/ronozoro",
-        "https://github.com/ronozoro"
-      ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Freight Right"
-      },
-      "alumniOf": [
-        {
-          "@type": "EducationalOrganization",
-          "name": "Westcliff University"
-        },
-        {
-          "@type": "EducationalOrganization", 
-          "name": "Fayoum University"
-        }
-      ]
-    }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostafa Abdo — Senior Backend Engineer</title>
+  <meta name="description" content="Mostafa Abdo — senior backend engineer in Los Angeles. Ten years of Python and Java: multi-tenant APIs, pricing engines, Git-native data workflows and MCP tooling for AI agents.">
+  <meta name="author" content="Mostafa Abdo">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://ronozoro.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ronozoro.github.io/">
+  <meta property="og:title" content="Mostafa Abdo — Senior Backend Engineer">
+  <meta property="og:description" content="I build the backend systems that freight networks, data platforms and AI agents run on.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mostafa Abdo — Senior Backend Engineer">
+  <meta name="twitter:description" content="I build the backend systems that freight networks, data platforms and AI agents run on.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a1a1a'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='34' fill='%23f7f5f0'%3EM%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Set theme before paint to avoid a flash -->
+  <script>
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mostafa Abdo",
+    "jobTitle": "Senior Backend Engineer",
+    "email": "mailto:mostafa.abdu007@gmail.com",
+    "url": "https://ronozoro.github.io",
+    "address": { "@type": "PostalAddress", "addressLocality": "Los Angeles", "addressRegion": "CA" },
+    "sameAs": ["https://www.linkedin.com/in/ronozoro", "https://github.com/ronozoro"],
+    "worksFor": { "@type": "Organization", "name": "Freight Right" },
+    "alumniOf": [
+      { "@type": "EducationalOrganization", "name": "Westcliff University" },
+      { "@type": "EducationalOrganization", "name": "Information Technology Institute (ITI)" },
+      { "@type": "EducationalOrganization", "name": "Fayoum University" }
+    ]
+  }
+  </script>
 </head>
 <body>
-    <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
-    
-    <header class="header">
-        <nav class="nav container">
-            <a href="#" class="nav__brand">Mostafa Abdo</a>
-            
-            <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-                <span class="nav__toggle-line"></span>
-                <span class="nav__toggle-line"></span>
-                <span class="nav__toggle-line"></span>
-            </button>
-            
-            <ul class="nav__menu">
-                <li><a href="#about" class="nav__link">About</a></li>
-                <li><a href="#experience" class="nav__link">Experience</a></li>
-                <li><a href="#skills" class="nav__link">Skills</a></li>
-                <li><a href="#education" class="nav__link">Education</a></li>
-                <li><a href="#contact" class="nav__link">Contact</a></li>
-                <li>
-                    <button class="theme-toggle" aria-label="Toggle dark mode">
-                        <span class="theme-toggle__icon">🌙</span>
-                    </button>
-                </li>
-            </ul>
-        </nav>
-    </header>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-    <main id="main" class="main">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero__content">
-                    <h1 class="hero__title">Software Engineer</h1>
-                    <p class="hero__subtitle">Building scalable systems with 9+ years of experience</p>
-                    <p class="hero__description">
-                        Experienced in Python, Java, microservices, and cloud integrations. 
-                        Currently crafting high-performance solutions at Freight Right.
-                    </p>
-                    <div class="hero__actions">
-                        <a href="#contact" class="btn btn--primary">Get In Touch</a>
-                        <a href="mailto:mostafa.abdu007@gmail.com" class="btn btn--secondary">Email Me</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <header class="header">
+    <nav class="nav wrap" aria-label="Primary">
+      <a href="#top" class="brand">Mostafa Abdo</a>
+      <ul class="nav__links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a class="btn btn--pill btn--sm mono" href="assets/Mostafa-Abdo-Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
 
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section__title">About Me</h2>
-                <div class="about">
-                    <div class="about__content">
-                        <p class="about__text">
-                            I'm a software engineer with over 9 years of experience building scalable APIs, 
-                            microservices, and cloud integrations. My expertise spans backend development, 
-                            data pipelines, and third-party API integrations.
-                        </p>
-                        <p class="about__text">
-                            Currently based in Los Angeles, I've worked across different continents, 
-                            contributing to teams in Berlin, Budapest, Riyadh, and Cairo. I enjoy solving 
-                            complex technical challenges and mentoring fellow developers.
-                        </p>
-                    </div>
-                    <div class="about__stats">
-                        <div class="stat">
-                            <div class="stat__number">9+</div>
-                            <div class="stat__label">Years Experience</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat__number">500+</div>
-                            <div class="stat__label">Merchants Served</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat__number">100k+</div>
-                            <div class="stat__label">Daily Transactions</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="section section--alt">
-            <div class="container">
-                <h2 class="section__title">Experience</h2>
-                <div class="timeline" id="experience-timeline">
-                    <!-- Experience items will be loaded by JavaScript -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="section__title">Skills & Technologies</h2>
-                <div class="skills" id="skills-container">
-                    <!-- Skills will be loaded by JavaScript -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="section section--alt">
-            <div class="container">
-                <h2 class="section__title">Education</h2>
-                <div class="education" id="education-container">
-                    <!-- Education items will be loaded by JavaScript -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section__title">Let's Connect</h2>
-                <div class="contact">
-                    <div class="contact__content">
-                        <p class="contact__text">
-                            I'm always interested in new opportunities and exciting projects. 
-                            Let's discuss how we can work together.
-                        </p>
-                        
-                        <div class="contact__methods">
-                            <a href="mailto:mostafa.abdu007@gmail.com" class="contact__method">
-                                <span class="contact__icon">📧</span>
-                                <span class="contact__label">Email</span>
-                                <span class="contact__value">mostafa.abdu007@gmail.com</span>
-                            </a>
-                            
-                            <a href="tel:+19494060536" class="contact__method">
-                                <span class="contact__icon">📱</span>
-                                <span class="contact__label">Phone</span>
-                                <span class="contact__value">+1 (949) 406-0536</span>
-                            </a>
-                            
-                            <a href="https://www.linkedin.com/in/ronozoro" target="_blank" rel="noopener noreferrer" class="contact__method">
-                                <span class="contact__icon">💼</span>
-                                <span class="contact__label">LinkedIn</span>
-                                <span class="contact__value">linkedin.com/in/ronozoro</span>
-                            </a>
-                            
-                            <a href="https://github.com/ronozoro" target="_blank" rel="noopener noreferrer" class="contact__method">
-                                <span class="contact__icon">⚡</span>
-                                <span class="contact__label">GitHub</span>
-                                <span class="contact__value">github.com/ronozoro</span>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact__form">
-                        <form action="mailto:mostafa.abdu007@gmail.com" method="post" enctype="text/plain" class="form">
-                            <div class="form__group">
-                                <label for="name" class="form__label">Name</label>
-                                <input type="text" id="name" name="name" class="form__input" required>
-                            </div>
-                            
-                            <div class="form__group">
-                                <label for="email" class="form__label">Email</label>
-                                <input type="email" id="email" name="email" class="form__input" required>
-                            </div>
-                            
-                            <div class="form__group">
-                                <label for="message" class="form__label">Message</label>
-                                <textarea id="message" name="message" class="form__input form__textarea" rows="5" required></textarea>
-                            </div>
-                            
-                            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <p class="footer__text">© 2025 Mostafa Abdo. Built with care in Los Angeles.</p>
-                <div class="footer__links">
-                    <a href="https://www.linkedin.com/in/ronozoro" target="_blank" rel="noopener noreferrer" class="footer__link">LinkedIn</a>
-                    <a href="https://github.com/ronozoro" target="_blank" rel="noopener noreferrer" class="footer__link">GitHub</a>
-                    <a href="mailto:mostafa.abdu007@gmail.com" class="footer__link">Email</a>
-                </div>
-            </div>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero wrap" id="top">
+      <div class="hero__main">
+        <p class="eyebrow">Senior backend engineer — Los Angeles, CA</p>
+        <h1 class="display">I build the backend systems that freight networks, data platforms and <em>AI agents</em> run on.</h1>
+        <p class="lede">Ten years in Python and Java: multi-tenant APIs, pricing engines and Git-native data workflows — and lately the MCP connector that lets Claude, ChatGPT, Codex and Cursor price, quote and track international freight at Freight Right.</p>
+        <div class="hero__cta">
+          <a href="#work" class="btn btn--solid">See the work</a>
+          <a href="#contact" class="btn btn--pill">Get in touch</a>
         </div>
-    </footer>
+      </div>
+      <dl class="facts">
+        <div><dt>Now</dt><dd>Software Engineer, Freight Right</dd></div>
+        <div><dt>Before</dt><dd>Y42 · Berlin</dd></div>
+        <div><dt>Side</dt><dd>Founder, Zolvio</dd></div>
+        <div><dt>Stack</dt><dd>Python · Java · Postgres · AWS</dd></div>
+        <div><dt>Latest</dt><dd><a class="mono" href="https://github.com/freight-right/agent-plugins" target="_blank" rel="noopener">agent-plugins v0.2.0 →</a></dd></div>
+      </dl>
+    </section>
 
-    <script src="script.js" defer></script>
+    <!-- Numbers -->
+    <section class="wrap" aria-label="By the numbers">
+      <ul class="stats">
+        <li><span class="stats__n">10<sup>+</sup></span><span class="stats__l">years shipping backend systems</span></li>
+        <li><span class="stats__n">16</span><span class="stats__l">MCP tools live in production</span></li>
+        <li><span class="stats__n">6</span><span class="stats__l">AI clients supported, Claude Code to Cursor</span></li>
+        <li><span class="stats__n">500<sup>+</sup></span><span class="stats__l">Shopify merchants on the freight integration</span></li>
+        <li><span class="stats__n">100K<sup>+</sup></span><span class="stats__l">daily payment transactions handled</span></li>
+      </ul>
+    </section>
+
+    <!-- 01 Work -->
+    <section class="section wrap" id="work">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow">01 — Selected work</p>
+          <h2 class="h2">Four systems I'd show you first.</h2>
+        </div>
+        <p class="section__note">Each one shipped to production and is still running. Numbers are the ones I can stand behind.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <header class="card__top"><span class="card__num">01</span><span class="card__meta mono">2025 – 2026 · Freight Right</span></header>
+          <h3 class="card__title">MCP connector &amp; agent plugins for international freight</h3>
+          <p class="card__body">Sixteen OAuth 2.1-secured tools and five workflow skills that let AI assistants price, quote, prepare bookings and track freight — read-only by default, nothing booked without the customer. Installs in Claude Code, Codex, Copilot CLI, Cursor, Grok and Muse Code; 17 of 17 behavioural evals at the release gate.</p>
+          <ul class="tags"><li>Python</li><li>MCP</li><li>OAuth 2.1 + PKCE</li><li>Agent evals</li></ul>
+          <a class="card__link" href="https://github.com/freight-right/agent-plugins" target="_blank" rel="noopener">github.com/freight-right/agent-plugins →</a>
+        </article>
+
+        <article class="card reveal">
+          <header class="card__top"><span class="card__num">02</span><span class="card__meta mono">2026 · Founder</span></header>
+          <h3 class="card__title">Zolvio — AI conversion optimization for Shopify</h3>
+          <p class="card__body">Store audits with 43 built-in checks and AI screenshot analysis, session recordings, heatmaps, surveys and A/B tests — with theme-specific fix instructions instead of a black box. Built on Claude models, live on the Shopify App Store.</p>
+          <ul class="tags"><li>Shopify</li><li>Claude API</li><li>A/B testing</li><li>Session replay</li></ul>
+          <a class="card__link" href="https://apps.shopify.com/zolvio" target="_blank" rel="noopener">apps.shopify.com/zolvio →</a>
+        </article>
+
+        <article class="card reveal">
+          <header class="card__top"><span class="card__num">03</span><span class="card__meta mono">2022 – 2024 · Y42, Berlin</span></header>
+          <h3 class="card__title">Git-native data workflows for a data-orchestration platform</h3>
+          <p class="card__body">A Git proxy so teams commit, pull and push to their own provider from the UI; GitHub, GitLab and Bitbucket unified behind one integration layer; a pull-request service gating production; a multi-workspace Spaces API that cut onboarding time by 40%.</p>
+          <ul class="tags"><li>Python</li><li>Git internals</li><li>dbt</li><li>Multi-tenancy</li></ul>
+          <a class="card__link" href="https://www.y42.com" target="_blank" rel="noopener">y42.com →</a>
+        </article>
+
+        <article class="card reveal">
+          <header class="card__top"><span class="card__num">04</span><span class="card__meta mono">2025 · Freight Right</span></header>
+          <h3 class="card__title">Carrier rate orchestration &amp; Shopify-to-CargoWise automation</h3>
+          <p class="card__body">Python/Django orchestration across 8 carrier providers for air, ocean and trucking behind instant quotes; fulfillment and tracking automated across 6 freight providers for 500+ merchants; catalog pagination calls cut by up to 80% with larger GraphQL batches and streamed ingestion.</p>
+          <ul class="tags"><li>Django</li><li>GraphQL</li><li>CargoWise</li><li>Spring Boot</li></ul>
+          <a class="card__link" href="https://www.freightright.com" target="_blank" rel="noopener">freightright.com →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- 02 Experience -->
+    <section class="section section--rule wrap split" id="experience">
+      <div class="split__aside">
+        <p class="eyebrow">02 — Experience</p>
+        <h2 class="h2">Ten years,<br>four countries.</h2>
+        <p class="muted small">Cairo, Riyadh, Berlin, Los Angeles. Logistics, data platforms, fintech.</p>
+      </div>
+      <div class="split__main">
+        <ol class="jobs">
+          <li><span class="jobs__when mono">2025 — now</span><span class="jobs__what"><strong>Freight Right</strong> · Software Engineer</span><span class="jobs__where">Los Angeles, CA</span></li>
+          <li><span class="jobs__when mono">2022 — 2024</span><span class="jobs__what"><strong>Y42</strong> · Software Engineer</span><span class="jobs__where">Berlin, Germany</span></li>
+          <li><span class="jobs__when mono">2021 — 2022</span><span class="jobs__what"><strong>Proactive Solutions</strong> · Software / Data Engineer</span><span class="jobs__where">Riyadh, Saudi Arabia</span></li>
+          <li><span class="jobs__when mono">2018 — 2021</span><span class="jobs__what"><strong>Expert</strong> · Full Stack Developer</span><span class="jobs__where">Riyadh, Saudi Arabia</span></li>
+          <li><span class="jobs__when mono">2017 — 2018</span><span class="jobs__what"><strong>IT Systems Corporation</strong> · Backend Developer</span><span class="jobs__where">Cairo, Egypt</span></li>
+          <li><span class="jobs__when mono">2016 — 2017</span><span class="jobs__what"><strong>Hintegration</strong> · Software Engineering Intern</span><span class="jobs__where">Cairo, Egypt</span></li>
+        </ol>
+        <ul class="edu small">
+          <li><strong>M.S. Computer Science</strong> · Westcliff University, 2025</li>
+          <li><strong>Postgraduate ML</strong> · ITI Cairo, 2021</li>
+          <li><strong>B.S. Computer Science</strong> · Fayoum University, 2016</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 03 How I work -->
+    <section class="dark" id="about">
+      <div class="section wrap">
+        <p class="eyebrow">03 — How I work</p>
+        <h2 class="h2 h2--wide">I own systems from design through production. Three habits that came with that.</h2>
+        <div class="habits">
+          <div class="reveal">
+            <h3>Safety is a design input.</h3>
+            <p>The freight connector is read-only by default, its write tools only prepare a booking the customer confirms in their own browser, and text inside a result is data, never an instruction. Those rules were written before the first tool.</p>
+          </div>
+          <div class="reveal">
+            <h3>Measure before you claim.</h3>
+            <p>A release gate with 17 behavioural cases, three trials each, a pinned model and the tested commit recorded. A score without those says nothing a month later — and a delta is not a claim until the ablation has run.</p>
+          </div>
+          <div class="reveal">
+            <h3>Teach as you build.</h3>
+            <p>At Y42 I started the weekly Backend Coffee, a standing session where the backend team shared what it was building and why. Documentation someone else can run from is part of the work, not a chore after it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 Toolbox -->
+    <section class="section wrap split" id="toolbox">
+      <div class="split__aside">
+        <p class="eyebrow">04 — Toolbox</p>
+        <h2 class="h2">What I reach for.</h2>
+      </div>
+      <div class="split__main tools">
+        <div><h3 class="label">Languages &amp; frameworks</h3><p>Python, Java, Django, Spring Boot, FastAPI, Flask, GraphQL, React, Pandas, scikit-learn</p></div>
+        <div><h3 class="label">Systems</h3><p>Distributed systems, microservices, multi-tenancy, OAuth 2.1, rate limiting, MCP and AI-agent tooling, agent evals</p></div>
+        <div><h3 class="label">Data &amp; storage</h3><p>PostgreSQL, MySQL, MongoDB, Redis, Snowflake, BigQuery, Databricks, dbt, Azure Data Factory</p></div>
+        <div><h3 class="label">Cloud &amp; DevOps</h3><p>AWS (EC2, RDS, Lambda, S3), GCP (GKE, GCS), Docker, Kubernetes, Terraform, Kafka, GitHub Actions</p></div>
+      </div>
+    </section>
+
+    <!-- 05 Contact -->
+    <section class="section section--rule wrap split split--contact" id="contact">
+      <div class="split__aside">
+        <p class="eyebrow">05 — Contact</p>
+        <h2 class="display display--md">Building something that needs a backend engineer who owns it end to end?</h2>
+        <a class="email mono" href="mailto:mostafa.abdu007@gmail.com">mostafa.abdu007@gmail.com</a>
+      </div>
+      <dl class="facts facts--contact">
+        <div><dt>GitHub</dt><dd><a href="https://github.com/ronozoro" target="_blank" rel="noopener">github.com/ronozoro →</a></dd></div>
+        <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/ronozoro" target="_blank" rel="noopener">linkedin.com/in/ronozoro →</a></dd></div>
+        <div><dt>Résumé</dt><dd><a href="assets/Mostafa-Abdo-Resume.pdf" target="_blank" rel="noopener">PDF, two pages →</a></dd></div>
+        <div><dt>Based in</dt><dd>Los Angeles, CA</dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <span class="mono">© <span id="year">2026</span> Mostafa Abdo · Los Angeles</span>
+    <span class="mono">Hand-built. No frameworks, no trackers.</span>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

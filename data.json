@@ -4,7 +4,6 @@
     "title": "Software Engineer",
     "location": "Los Angeles, California, United States",
     "email": "mostafa.abdu007@gmail.com",
-    "phone": "949 406 0536",
     "linkedin": "https://www.linkedin.com/in/ronozoro",
     "github": "https://github.com/ronozoro",
     "summary": "Experienced Software Engineer with 9+ years building scalable APIs, microservices, and cloud integrations. Expertise in Python, Java, data pipelines, backend development, and third-party API integration."
@@ -38,12 +37,12 @@
       ]
     },
     {
-      "company": "Revenue AI",
+      "company": "Proactive Solutions",
       "title": "Software Engineer / Data Engineer",
-      "location": "Budapest, Hungary",
+      "location": "Riyadh, Saudi Arabia",
       "period": "Feb 2021 - Jan 2022",
       "highlights": [
-        "Built backend with FastAPI and Starlight for stock trading integration with +15% data sync improvement",
+        "Built backend with FastAPI and Starlette for stock trading integration with +15% data sync improvement",
         "Optimized Databricks pipelines reducing process time by 20%",
         "Created Dash apps for commodity data visualization and ML market forecasting",
         "Automated Azure Data Factory ETL processes improving quality and reducing manual work by 30%"
