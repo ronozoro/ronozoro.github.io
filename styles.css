@@ -200,7 +200,9 @@ strong { font-weight: 600; color: var(--ink); }
    Sections
    ------------------------------------------------------------------ */
 .section { padding-top: clamp(72px, 10vw, 112px); padding-bottom: clamp(72px, 10vw, 112px); }
-.section--rule { border-top: 1px solid var(--line); }
+.section--rule, .footer {
+  background: linear-gradient(var(--line), var(--line)) no-repeat top center / calc(100% - 2 * var(--gutter)) 1px;
+}
 .section__head { margin-bottom: 40px; }
 .section__head--split { display: flex; justify-content: space-between; align-items: end; gap: 40px; }
 .section__note { max-width: 42ch; font-size: 13px; color: var(--muted); }
@@ -285,7 +287,6 @@ strong { font-weight: 600; color: var(--ink); }
 .footer {
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
   padding-top: 28px; padding-bottom: 40px;
-  border-top: 1px solid var(--line);
   font-size: 11px; color: var(--muted);
 }
 
